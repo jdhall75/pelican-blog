@@ -26,10 +26,14 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('Instagram', 'https://www.instagram.com/makerjd/'),
+        ('Twitter', 'https://twitter.com/cleverIdent'),)
 
 DEFAULT_PAGINATION = 10
+
+DEFAULT_METADATA = {
+            'status': 'draft',
+}
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
