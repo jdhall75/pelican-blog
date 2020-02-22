@@ -9,4 +9,4 @@ fi
 
 git clone $THEME_REPO $THEME_DIR
 make clean
-pelican -t flex
+pipenv run pelican -t flex
