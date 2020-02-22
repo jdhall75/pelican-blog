@@ -1,5 +1,6 @@
 # site custom
 output
+flex
 
 # python ignores
 __pycache__/
