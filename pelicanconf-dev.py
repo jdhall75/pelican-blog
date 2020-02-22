@@ -8,7 +8,7 @@ SITENAME = 'A Rapt Mind'
 SITETITLE = 'ARM'
 SITESUBTITLE = 'Suffering from tech ADD'
 SITEDESCRIPTION = 'A Rapt Mind - A blog about technology and life'
-SITEURL = 'https://araptmind.com'
+#SITEURL = 'https://127.0.0.1:8000'
 
 PATH = 'content'
 
@@ -16,8 +16,8 @@ TIMEZONE = 'America/New_York'
 
 DEFAULT_LANG = 'en'
 
-USE_FOLDER_AS_CATEGORY=False
-DISPLAY_CATEGORIES_ON_MENU=False
+USE_FOLDER_AS_CATEGORY=True
+DISPLAY_CATEGORIES_ON_MENU=True
 
 
 # Blogroll
