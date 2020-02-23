@@ -41,19 +41,27 @@ DEFAULT_METADATA = {
 #RELATIVE_URLS = True
 
 ## pulled fom Flex's pelicanconf.py
+
+### display and assest
+MAIN_MENU = True
+USE_GOOGLE_FONTS = True
 SITELOGO = '/images/profile-hollow.png'
 favicon = '/images/favicon.ico'
 browser_color = '#333333'
 pygments_style = 'monokai'
-
-ROBOTS = 'index, follow'
-
 date_formats = {
     'en': '%b %d, %y',
 }
 
-MAIN_MENU = True
-#home_hide_tags = True
+
+# behavior
+ROBOTS = 'index, follow'
+
+
+# stats and information
+GOOGLE_ANALYTICS = 'UA-158910580-1'
+
+home_hide_tags = True
 
 MENUITEMS = (('archives', '/archives.html'),
              ('categories', '/categories.html'),
