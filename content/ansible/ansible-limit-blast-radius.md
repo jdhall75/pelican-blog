@@ -48,8 +48,9 @@ all:
             children:
                 wan
 ```
-There is a good example of a network just barely large engough to automate.  I try an refrain mixing in variable into the inventory directoy and puth them in their corresponding host and group var files.
+There, thats a good example of a network just barely large engough to automate.  The astute amongst you will notice there are no variables defined in the inventory file.  I try an refrain mixing in variables into the inventory directoy and puth them in their corresponding host and group var files.
 
 
 [Targeting hosts with patterns](https://docs.ansible.com/ansible/latest/user_guide/intro_patterns.html)
+
 [Passing extra vars on the command line](https://docs.ansible.com/ansible/latest/user_guide/playbooks_variables.html#passing-variables-on-the-command-line)
